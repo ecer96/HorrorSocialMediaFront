@@ -1,0 +1,33 @@
+footer{
+    width: 100vw;
+
+    img{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+}
+
+p{
+    color: white;
+    background-color: #090a0c;
+}
+
+.container-users{
+    position: absolute;
+    background-color: #090a0c;
+    width: 100%;
+    left: 0;
+    padding-left: 20px;
+
+}
+
+.status{
+    background-color: green;
+    padding: 5px;
+    width: 2px;
+    border-radius: 30px;
+    position: relative;
+    left:30px;
+}

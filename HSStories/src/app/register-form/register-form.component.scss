@@ -1,0 +1,96 @@
+.form-container{
+    legend{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+display: flex;
+justify-content: center;
+       
+::-webkit-scrollbar{
+    width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F4B94A;
+    border-radius: 10px;
+  }
+    form {
+        legend{
+            background: #151516;
+        }
+        padding: 30px 50px 50px 50px;
+        background: #151516;
+        width: 300px;
+        border-radius: 20px;
+        color: white;
+        margin-top: 2rem;
+        font-size: 19px;
+        height: 400px;
+        overflow-y: scroll;
+
+        #profilePhoto{
+            padding: 20px;
+        }
+        input::file-selector-button{
+         background-color: transparent;
+         color: white;
+         border:1px solid #F4B94A;
+         height: 25px;
+         border-radius: 10px;
+        }
+        
+
+
+        div{
+            margin-top: 20px;
+            background-color: #151516;
+            label{
+                background-color: #151516;
+                font-size: 14px;
+                margin-left: 16px;
+                text-align: center;
+            }
+            input{
+                width: 100%;
+                background-color: none;
+                border: none;
+                border-bottom: 1px solid #F4B94A;
+                background-color: transparent;
+                height: 25px;
+                border-radius: 4px;
+                margin-top: 10px;
+                padding: 4px;
+                outline: none;
+                color: white;
+                
+            }
+            :focus{
+                border-bottom: 2px solid #F4B94A;
+            }
+
+            input::placeholder{
+                padding-left: 10px;
+                color: white;
+            }
+
+        
+        }
+        .button-container{
+            
+            .button{
+                color: white;
+                background-color: #F4B94A;
+                text-align: center;
+                align-items: center;
+                padding-bottom: 24px;
+                padding-top: 8px;
+                align-items: center;
+            
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

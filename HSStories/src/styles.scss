@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    background-color: black;
+}
+
+body{
+    margin: 0;
+   
+}
+
+app-stories,app-login-form,app-register-form{
+    width: 100vw;
+}
+
+app-login-form,app-register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

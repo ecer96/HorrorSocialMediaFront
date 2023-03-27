@@ -1,0 +1,99 @@
+<div class="form-container">
+    <form method="post" (ngSubmit)="onSubmit()">
+      <legend>Create youre account</legend>
+      <div>
+    
+        <input
+          name="Name"
+          placeholder="Ingrese Su Nombre"
+          id="Name"
+          type="text"
+          value="Name"
+          [(ngModel)]="Name"
+         
+          required
+        />
+
+        <br />
+      </div>
+      <div>
+      
+        <input
+          name="Lastname"
+          placeholder="Ingrese su Apellido"
+          id="lastName"
+          type="text"
+          [(ngModel)]="LastName"
+          value="LastName"
+        /><br />    
+      </div>
+      <div>
+      
+        <input
+          name="Username"
+          placeholder="Ingrese su Nombre de Usuario"
+          id="Username"
+          type="text"
+          [(ngModel)]="UserName"
+        /><br />
+      </div>
+      <div>
+      
+        <input
+          name="Email"
+          placeholder="Ingrese su Correo Electronico"
+          id="email"
+          type="email"
+          [(ngModel)]="Email"
+       
+        /><br />
+      </div>
+      <div>
+     
+        <input
+          name="Password"
+          placeholder="Ingrese su Contraseña"
+          id="password"
+          type="password"
+          [(ngModel)]="Password"
+        /><br />
+      </div>
+      <div>
+        <input
+          name="phone"
+          placeholder="Ingrese su Telefono"
+          id="phone"
+          type="tel"
+          [(ngModel)]="Phone"
+        /><br />
+      </div>
+      <div>
+        <input
+          name="Birthday"
+          id="Birthday"
+          type="date"
+          [(ngModel)]="Birthday"
+        /><br />
+      </div>
+      <div>
+        <input
+          name="adress"
+          placeholder="Ingrese su Direccion"
+          id="adress"
+          type="text"
+          [(ngModel)]="Adress"
+        /><br />
+      </div>
+      <div>
+        <label for="profilePhoto">Foto de Perfil</label><br />
+        <input name="profilePhoto" id="profilePhoto" type="file" accept="image/*" (change)="handleFileInput($event)" /><br>
+
+
+    </div>
+      <div class="button-container">
+  
+          <input type="submit" value="Crear" class="button">
+      </div>
+    </form> 
+  </div>
+  
